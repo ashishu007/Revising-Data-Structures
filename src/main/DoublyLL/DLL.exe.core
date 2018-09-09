@@ -1,0 +1,20 @@
+[main] DLL 1000 (0) exception: trapped!
+[main] DLL 1000 (0) exception: code 0xC0000005 at 0x4013F0
+[main] DLL 1000 (0) exception: ax 0xA031C88 bx 0x246FDD0 cx 0x0 dx 0x0
+[main] DLL 1000 (0) exception: si 0x0 di 0x401000 bp 0x246FD98 sp 0x246FD88
+[main] DLL 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] DLL 1000 (0) stack: Stack trace:
+[main] DLL 1000 (0) stack: frame 0: sp = 0x246F718, pc = 0x6100A2C3
+[main] DLL 1000 (0) stack: frame 1: sp = 0x246F754, pc = 0x77CBEAC2
+[main] DLL 1000 (0) stack: frame 2: sp = 0x246F778, pc = 0x77CBEA94
+[main] DLL 1000 (0) stack: frame 3: sp = 0x246F840, pc = 0x77CAC6B6
+[main] DLL 1000 (0) stack: frame 4: sp = 0x246FD98, pc = 0x401499
+[main] DLL 1000 (0) stack: frame 5: sp = 0x246FDB8, pc = 0x61004402
+[main] DLL 1000 (0) stack: frame 6: sp = 0x246FF48, pc = 0x61004420
+[main] DLL 1000 (0) stack: frame 7: sp = 0x246FF54, pc = 0x41354E
+[main] DLL 1000 (0) stack: frame 8: sp = 0x246FF64, pc = 0x40103A
+[main] DLL 1000 (0) stack: frame 9: sp = 0x246FF80, pc = 0x77A88484
+[main] DLL 1000 (0) stack: frame 10: sp = 0x246FF94, pc = 0x77CA2FEA
+[main] DLL 1000 (0) stack: frame 11: sp = 0x246FFDC, pc = 0x77CA2FBA
+[main] DLL 1000 (0) stack: frame 12: sp = 0x246FFEC, pc = 0x0
+[main] DLL 1000 (0) stack: End of stack trace

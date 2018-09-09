@@ -60,7 +60,7 @@ void deleteKey(struct Node **head, int key) {
         temp = temp -> nxt;
     }
 
-    if (temp -> nxt == NULL) {
+    if (temp == NULL) {
         printf("Key not found \n");
         return;
     }
@@ -131,9 +131,11 @@ int main() {
     printList(head);
     cout<<"\n";
 
-    // deleteKey(&head, 4);
-    // printList(head);
-    deletePos(&head, 4);
+    deleteKey(&head, 1);
+    printList(head);
+    cout<<endl;
+
+    deletePos(&head, 1);
     printList(head);
     cout<<endl;
 
